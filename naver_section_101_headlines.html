@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>네이버 경제 뉴스 크롤링 결과</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #f8f9fa; padding: 20px; }
+        .news-card { 
+            background: white; 
+            border-radius: 12px; 
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05); 
+            margin-bottom: 20px; 
+            transition: transform 0.2s;
+            height: 100%;
+        }
+        .news-card:hover { transform: translateY(-3px); box-shadow: 0 8px 12px rgba(0,0,0,0.1); }
+        .card-body { padding: 1.5rem; }
+        .news-title { font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem; color: #333; }
+        .news-title a { text-decoration: none; color: inherit; }
+        .news-meta { font-size: 0.85rem; color: #6c757d; margin-bottom: 1rem; }
+        .news-lede { font-size: 0.95rem; color: #555; line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+        .badge-press { background-color: #03c75a; color: white; padding: 4px 8px; border-radius: 4px; font-size: 0.75rem; margin-right: 5px; }
+        .header { text-align: center; margin-bottom: 40px; }
+        .updated-time { font-size: 0.9rem; color: #888; margin-top: 10px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1 class="display-6 fw-bold">📉 네이버 경제 뉴스 모니터링</h1>
+        <p class="updated-time">생성 시간: 2026-02-11 12:34:02</p>
+        <p class="lead">총 10개의 기사가 수집되었습니다.</p>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        
+        <div class="col">
+            <div class="news-card">
+                <div class="card-body">
+                    <div class="news-meta">
+                        <span class="badge-press">더팩트</span>
+                        <span>1위</span>
+                    </div>
+                    <h5 class="news-title">
+                        <a href="https://n.news.naver.com/mnews/article/629/0000471561" target="_blank">BGF리테일, 지난해 영업익 2539억원…전년比 0.9% ↑</a>
+                    </h5>
+                    <p class="news-meta"></p>
+                    <p class="news-lede">지난해 매출 9조원 돌파…역대 최대 실적 4분기 영업이익 642억원…전년比 24.4% ↑ 편의점CU를 운영하는 BGF리테일은 지난해 연결기준 매출액 9조612억원, 영업이익 2539억원을 기록했다고 10일 공시했다.</p>
+                    <a href="https://n.news.naver.com/mnews/article/629/0000471561" target="_blank" class="btn btn-sm btn-outline-primary w-100 mt-2">기사 원문 보기</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col">
+            <div class="news-card">
+                <div class="card-body">
+                    <div class="news-meta">
+                        <span class="badge-press">SBS Biz</span>
+                        <span>2위</span>
+                    </div>
+                    <h5 class="news-title">
+                        <a href="https://n.news.naver.com/mnews/article/374/0000491959" target="_blank">현대차·기아·BMW 51개 차종 17만9천880대 리콜</a>
+                    </h5>
+                    <p class="news-meta"></p>
+                    <p class="news-lede">국토교통부는 현대차·기아에서 제작하거나 BMW코리아에서 수입해 판매한 51개 차종 17만9천880대에서 제작 결함이 발견돼 자발적 시정조치(리콜)를 한다고 오늘(11일) 밝혔습니다. 현대차 포터Ⅱ 일렉트릭 3만6천6</p>
+                    <a href="https://n.news.naver.com/mnews/article/374/0000491959" target="_blank" class="btn btn-sm btn-outline-primary w-100 mt-2">기사 원문 보기</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col">
+            <div class="news-card">
+                <div class="card-body">
+                    <div class="news-meta">
+                        <span class="badge-press">연합뉴스</span>
+                        <span>3위</span>
+                    </div>
+                    <h5 class="news-title">
+                        <a href="https://n.news.naver.com/mnews/article/001/0015899729" target="_blank">농식품부 "농촌형 교통모델 이용자, 작년 740만명 넘어"</a>
+                    </h5>
+                    <p class="news-meta"></p>
+                    <p class="news-lede">병원·약국 등 보건·의료시설 이용 비중 높아 농림축산식품부가 농촌 지역 교통 취약 문제 해소를 위해 천원택시, 콜버스, 노선버스 등을 운영하는 '농촌형 교통모델'의 지난해 이용자가 740만명을 넘은 것으로 조사됐다.</p>
+                    <a href="https://n.news.naver.com/mnews/article/001/0015899729" target="_blank" class="btn btn-sm btn-outline-primary w-100 mt-2">기사 원문 보기</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col">
+            <div class="news-card">
+                <div class="card-body">
+                    <div class="news-meta">
+                        <span class="badge-press">뉴스1</span>
+                        <span>4위</span>
+                    </div>
+                    <h5 class="news-title">
+                        <a href="https://n.news.naver.com/mnews/article/421/0008768018" target="_blank">김동명 LG엔솔 사장 "북미 자산 적극 활용해 ESS 수요 흡수"</a>
+                    </h5>
+                    <p class="news-meta"></p>
+                    <p class="news-lede">김동명 LG에너지솔루션(373220) 대표이사 사장은 11일 "북미에 투자한 자산을 적극 활용해 급증하는 ESS(에너지저장장치) 수요를 많이 흡수하겠다"고 밝혔다. 김 사장은 이날 오전 한국배터리산업협회 총회가 열린</p>
+                    <a href="https://n.news.naver.com/mnews/article/421/0008768018" target="_blank" class="btn btn-sm btn-outline-primary w-100 mt-2">기사 원문 보기</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col">
+            <div class="news-card">
+                <div class="card-body">
+                    <div class="news-meta">
+                        <span class="badge-press">SBS</span>
+                        <span>5위</span>
+                    </div>
+                    <h5 class="news-title">
+                        <a href="https://n.news.naver.com/mnews/article/055/0001332187" target="_blank">보스턴다이내믹스 '로봇개' 스팟, 영국 핵시설 해체현장 업무 지원</a>
+                    </h5>
+                    <p class="news-meta"></p>
+                    <p class="news-lede">▲ 스팟이 셀라필드 핵 시설 현장을 순찰하는 모습 현대자동차그룹 로보틱스 계열사 보스턴다이내믹스의 '로봇개'로 유명한 4족 보행 로봇 '스팟'이 영국에서 원자력 시설 해체 작업의 '특급 도우미'로 활약해온 것으로 전</p>
+                    <a href="https://n.news.naver.com/mnews/article/055/0001332187" target="_blank" class="btn btn-sm btn-outline-primary w-100 mt-2">기사 원문 보기</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col">
+            <div class="news-card">
+                <div class="card-body">
+                    <div class="news-meta">
+                        <span class="badge-press">한국경제</span>
+                        <span>6위</span>
+                    </div>
+                    <h5 class="news-title">
+                        <a href="https://n.news.naver.com/mnews/article/015/0005249533" target="_blank">'K방산 원팀' 된 한화에어로·KAI</a>
+                    </h5>
+                    <p class="news-meta"></p>
+                    <p class="news-lede">한화에어로스페이스와 한국항공우주산업(KAI)이 KF-21(사진), FA-50 등 국산 전투기에 장착할 장거리 공대공 미사일 등을 함께 개발한다. 전투기와 미사일을 패키지로 묶어 해외 시장을 공동으로 공략하기 위해서다</p>
+                    <a href="https://n.news.naver.com/mnews/article/015/0005249533" target="_blank" class="btn btn-sm btn-outline-primary w-100 mt-2">기사 원문 보기</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col">
+            <div class="news-card">
+                <div class="card-body">
+                    <div class="news-meta">
+                        <span class="badge-press">농민신문</span>
+                        <span>7위</span>
+                    </div>
+                    <h5 class="news-title">
+                        <a href="https://n.news.naver.com/mnews/article/662/0000088335" target="_blank">“개인정보 1억회 이상 헤집었다”…정부, 쿠팡 개인정보 유출 규모 발표</a>
+                    </h5>
+                    <p class="news-meta"></p>
+                    <p class="news-lede">정부가 지난해 말 발생한 쿠팡 개인정보 침해사고를 조사한 결과, 고객의 이름·전화번호·주소 등이 담긴 ‘배송지 목록’이 1억회 이상 조회된 것으로 확인됐다. 공격자는 공동현관 비밀번호 등이 있는 ‘배송지 수정’ 페이</p>
+                    <a href="https://n.news.naver.com/mnews/article/662/0000088335" target="_blank" class="btn btn-sm btn-outline-primary w-100 mt-2">기사 원문 보기</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col">
+            <div class="news-card">
+                <div class="card-body">
+                    <div class="news-meta">
+                        <span class="badge-press">뉴시스</span>
+                        <span>8위</span>
+                    </div>
+                    <h5 class="news-title">
+                        <a href="https://n.news.naver.com/mnews/article/003/0013762968" target="_blank">1월 취업자, 계엄 이후 전년대비 증가폭 최소…실업자 12.8만명↑(2보)</a>
+                    </h5>
+                    <p class="news-meta"></p>
+                    <p class="news-lede">1월 취업자 수 증가폭이 비상계엄 사태가 있었던 2014년 12월 이후 가장 낮은 수준으로 떨어졌다. 실업자수는 13개월 만에 가장 큰 폭으로 증가해 실업률이 두달째 4%를 기록했다. 한파 등</p>
+                    <a href="https://n.news.naver.com/mnews/article/003/0013762968" target="_blank" class="btn btn-sm btn-outline-primary w-100 mt-2">기사 원문 보기</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col">
+            <div class="news-card">
+                <div class="card-body">
+                    <div class="news-meta">
+                        <span class="badge-press">머니투데이</span>
+                        <span>9위</span>
+                    </div>
+                    <h5 class="news-title">
+                        <a href="https://n.news.naver.com/mnews/article/008/0005317054" target="_blank">10㎏도 끌어올리는 흡입력…삼성, 안심 앞세운 'K-로청' 출시</a>
+                    </h5>
+                    <p class="news-meta"></p>
+                    <p class="news-lede">삼성전자가 흡입력을 최대 2배 끌어올린 신형 로봇청소기를 출시한다. 45㎜ 문턱을 넘는 주행 성능과 투명 액체까지 인식하는 AI(인공지능) 기능, 강화된 보안 솔루션을 두루 갖췄다. 삼성전자는 구매·설치·가구 리폼·</p>
+                    <a href="https://n.news.naver.com/mnews/article/008/0005317054" target="_blank" class="btn btn-sm btn-outline-primary w-100 mt-2">기사 원문 보기</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col">
+            <div class="news-card">
+                <div class="card-body">
+                    <div class="news-meta">
+                        <span class="badge-press">한국경제</span>
+                        <span>10위</span>
+                    </div>
+                    <h5 class="news-title">
+                        <a href="https://n.news.naver.com/mnews/article/015/0005249830" target="_blank">HJ중공업 수주공시 - 컨테이너선 2척 수주 3,532.7억원 (매출액대비  18.73 %)</a>
+                    </h5>
+                    <p class="news-meta"></p>
+                    <p class="news-lede">02월 11일 HJ중공업(097230)은 수주공시를 발표했다. ◆HJ중공업 수주공시 개요 - 컨테이너선 2척 수주 3,532.7억원 (매출액대비 18.73 %) HJ중공업(097230)은 컨테이너선 2척 수주에 관한</p>
+                    <a href="https://n.news.naver.com/mnews/article/015/0005249830" target="_blank" class="btn btn-sm btn-outline-primary w-100 mt-2">기사 원문 보기</a>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+    
